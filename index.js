@@ -73,8 +73,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
-    .then((responses) => {
+    inquirer.createPromptModule(questions).then ((responses) => {
         console.log('Passing your information to creat README file.');
         writeToFile("./output/README.md".generatemd({ ... responses}));
     });
