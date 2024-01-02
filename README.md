@@ -13,6 +13,7 @@ SO THAT I can quickly create a professional README for a new project
 ## Acceptance Criteria
 
 - GIVEN a command-line application that accepts user input
+![Picture of the starting point at the command line](commandlinestart.png)
 - WHEN I am prompted for information about my application repository
 - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 - WHEN I enter my project title
@@ -59,3 +60,11 @@ https://github.com/users/kzefram/achievements/quickdraw
 https://github.com/users/kzefram/achievements/pull-shark
 
 https://github.com/users/kzefram/achievements/yolo
+
+## Testing
+
+I tested to get the pictures and video to upload
+![Cammand line test Picture](testCommandline.png)
+
+This is the out put of it
+![README picture of test](testREADME.png)
