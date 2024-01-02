@@ -1,4 +1,4 @@
-# README Generator
+# TEst
 
 ## Contents
 [Description](#description)
@@ -14,41 +14,41 @@
 
 ## Description
 
-The purpose of this repository is create a README file for you as you answer a few questions.
+n/a
 
 ## Dependencies
 
-The inquirer
+n/a
 
 ## Installation
 
-N/A
+n/a
 
 ## Usage
 
-I believe this will help me a great deal giving that I still have a bunch of README files to write before the end of my program.
+n/a
 
 ## Credits
 
-Karen Bourgeois, UNB/EDx
+n/a
 
 ## License
 
-MIT
+n/a
 
 ## Badges
 
-N/A
+n/a
 
 ## Features
 
-N/A
+n/a
 
 ## Contributions
 
-N/A
+n/a
 
 ## Tests
 
-N/A
+n/a
 
