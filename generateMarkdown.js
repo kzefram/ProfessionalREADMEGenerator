@@ -47,39 +47,39 @@ ${data.description}
 
 ## Dependencies
 
-${require}
+${data.require}
 
 ## Installation
 
-${installation}
+${data.installation}
 
 ## Usage
 
-${usage}
+${data.usage}
 
 ## Credits
 
-${credits}
+${data.credits}
 
 ## License
 
-${license}
+${data.license}
 
 ## Badges
 
-${badges}
+${data.badges}
 
 ## Features
 
-${features}
+${data.features}
 
 ## Contributions
 
-${contribution}
+${data.contribution}
 
 ## Tests
 
-${testing}
+${data.testing}
 
 `;
 }
