@@ -2,8 +2,9 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generatemd = require('./generateMarkdown');
+const generatemd = require('./generateMarkdown.js');
 const path = require('path');
+
 
 
 // TODO: Create an array of questions for user input
@@ -67,17 +68,40 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(),  fileName), data);
-}
+
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.createPromptModule(questions).then ((responses) => {
-        console.log('Passing your information to creat README file.');
-        writeToFile("./output/README.md".generatemd({ ... responses}));
-    });
-}
+// asnyc function init() {
+//     inquirer
+//         .createPromptModule(questions); 
+//         await;
+//         .then((responses) => {
+//             console.log('Passing your information to create README file.');
+//             writeToFile("./output/README.md".generatemd({ ... responses}));
+    
+//             const file = generatemd(responses);
+//             writeToFile("./output/README.md", file);
+//     });
+// }
+
+function writeToFile(fileName, data) {
+    // Use path.join() method to join the segments of a file path
+    const filePath = path.join(process.cwd(), fileName);
+  
+    // Use fs.writeFile() method to write data to the file
+    fs.writeFile(filePath, data, (err) =>
+      err ? console.log(err) : console.log("File created!")
+    );
+  }
+
+// writing to the md file
+async function init() {
+    const prompt = inquirer.createPromptModule();
+    const responses = await prompt(questions);
+    console.log("Passing your information to create README file.");
+    const markdown = generatemd(responses)
+    writeToFile("./output/README.md", markdown);
+  }
 
 // Function call to initialize app
 init();
