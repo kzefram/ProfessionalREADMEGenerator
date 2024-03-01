@@ -1,4 +1,4 @@
-# TEst
+# MyBlog-Today
 
 ## Contents
 [Description](#description)
@@ -14,41 +14,41 @@
 
 ## Description
 
-n/a
+ An app that allows users to post, edit, and create an online presence. You are able to read snipits of
 
 ## Dependencies
 
-n/a
+na
 
 ## Installation
 
-n/a
+na
 
 ## Usage
 
-n/a
+The use is to blog one's journey through the world of tech. The just may save your sanity as you tranverse through some of the difficulties that will envabtablely arise. It may even help you with remembering or getting that ah-ha moment you need to your bugs. Happy blogging.
 
 ## Credits
 
-n/a
+Karen Bourgeois, Arnoldo, EDx
 
 ## License
 
-n/a
+MIT
 
 ## Badges
 
-n/a
+I have some
 
 ## Features
 
-n/a
+Reading snippits before logging in, commenting on other's posts, easy sigm-up
 
 ## Contributions
 
-n/a
+na
 
 ## Tests
 
-n/a
+na
 

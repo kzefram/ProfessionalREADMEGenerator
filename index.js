@@ -20,10 +20,10 @@ const questions = [
         question: "What is the description of your repository? What does it do?"
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
         question: "What type of license does your repository have?",
-        options: ["MIT", "BSD3", "Boost1.0"]
+        choices: ["MIT", "BSD3", "Boost1.0"]
     },
     {
         type: "input",
